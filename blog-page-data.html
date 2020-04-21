@@ -1,0 +1,156 @@
+<!-- |---| BLOG PAGE |---| -->
+<div id="blog-page" class="page">
+
+    <!-- Module -->
+    <div class="module-wrapper">
+        <!-- M Style -->
+        <div class="module-style">
+            <!-- M Content -->
+            <div class="mod-cont-wrapper">
+                <!-- Even Split Mod -->
+                <div class="even-split-ov-wrapper">
+                    <!-- Even Graphic -->
+                    <div class="even-graphic-wrap">
+                        <div class="centre-content">
+                            <img class="even-gra-m" src="assets/img/blog/tco-logo.png">
+                        </div>
+                    </div>
+                    <!-- Even Text -->
+                    <div class="even-text-wrap">
+                        <div class="centre-content">
+                            <p class="even-header">The Californian Opinion</p>
+                            <p class="even-text">After moving to California and co-founding C&amp;C Studios, I wanted to keep track of anything interesting I thought of or created. I don't usually post things here, but if I ever do complete a journal of a creation then I'll post it.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+    
+<!-- Blogs -->
+
+    <!-- Module -->
+    <div class="module-wrapper">
+        <!-- M Style -->
+        <div class="module-style">
+            <!-- M Content -->
+            <div class="mod-cont-wrapper">
+                <!-- Card Split Mod -->
+                <div class="card-split-ov-wrapper">
+                    <div class="card-split-wrapper">
+                        <!-- Card Cover -->
+                        <div class="card-split-container card-cover" style="background-image: url(assets/img/blog/articles/2020.04.01/fw-sf.jpg);">
+                            <div class="card-cov-tint card-target card-act-target">
+                                <div class="tag-anchor">19 APR 20</div>
+                            </div>
+                        </div>
+
+                        <!-- Card Content -->
+                        <div class="card-split-container card-cont">
+                            <!-- Preview -->
+                            <div class="card-cont-prev">
+                                <h3>Using RGP (Repetitious Geometric Patterned) Filters</h3>
+                                <h4>&mdash; 5 Minutes &mdash;<br>Category: <span class="text-pri-colour">Web Development</span></h4>
+                            </div>
+                            <!-- Prev Cont -->
+                            <div class="card-cont-hid">
+                                <!-- Text -->
+                                <div class="art-text-cont">
+                                    <p class="card-cont-header">Introduction</p>
+                                    <p class="card-cont-text">In the selective amount of years as a freelance web developer, I’ve learned a vast amount of techniques of displaying content in creative manners. One of the main challenges in which I and many developers who build from scratch face is displaying content on top of images (image/graphic backgrounds). Although mobile compatibility plays a large role in content resizing for better legibility, what actually most fail to look at first is the contrast of colours of the background image compared to the content desired to be displayed. There are various ways to attempt this problem, with many solutions providing varying results, but in my experience I believe to have found a solution in which better fits a greater diversity of scenarios.</p>
+                                </div>
+
+                                <!-- Img -->
+                                <div class="art-wrapper">
+                                    <div class="centre-content">
+                                        <div class="art-tag"><p><span class="art-tag-coloured">No Filters</span></p></div>
+                                        <img class="artwork lazy" src="assets/img/art/loading.gif" data-src="assets/img/blog/articles/2020.04.01/ct-wo-any.jpg">
+                                    </div>
+                                </div>
+
+                                <div class="art-text-cont">
+                                    <p class="card-cont-header">The Approach</p>
+                                    <p class="card-cont-text">As mentioned before, mobile compatibility greatly affects how we should approach this problem. Those who prefer the simplest method actually end up doing the most work. This would be filtering an image using a photographic editing software (Adobe Photoshop) for each image/graphic to increase contrast when displayed behind content. The more astute would lean towards using filters generated though the stylesheet to cover on top of the image (which I have done for a while), however this method is considered to be a static filter not applicable on a multitude of images on the same document. However, there is a filter method in which utilises the eye’s perception of contrast in order to apply a filter across multiple images.</p>
+                                    <p class="card-cont-header">The Filter Type</p>
+                                    <p class="card-cont-text">Currently I have been experimenting with this filter type for dynamic displays. It’s not perfect, but it works better than most in many occasions. I call them Repetitious Geometric Patterned (RGP) Filters. What the filter consists of are simplistic geometric shapes arranged in a pattern that can be repeated infinitely (with code). The eye’s of the viewer adjust the filter to its own needs when attempting to read the displayed content or when looking at the background image. Thus, these types of filters allow for legibility of displayed content on top of images whilst minimising alteration of the background image. A filter like this is considered to be dynamic. Another comparable dynamic filter would require extensive CSS/JS for the device to readjust a constructed filter, however this falls short of RGPs in resource efficiency.</p>
+                                </div>
+
+                                <!-- Img -->
+                                <div class="art-wrapper">
+                                    <div class="centre-content">
+                                        <div class="art-tag"><p><span class="art-tag-coloured">Solid Filter</span></p></div>
+                                        <img class="artwork lazy" src="assets/img/art/loading.gif" data-src="assets/img/blog/articles/2020.04.01/ct-w-nf.jpg">
+                                    </div>
+                                </div>
+
+                                <!-- Img -->
+                                <div class="art-wrapper">
+                                    <div class="centre-content">
+                                        <div class="art-tag"><p><span class="art-tag-coloured">RGP Filter</span></p></div>
+                                        <img class="artwork lazy" src="assets/img/art/loading.gif" data-src="assets/img/blog/articles/2020.04.01/ct-w-sf.jpg">
+                                    </div>
+                                </div>
+
+                                <div class="art-text-cont">
+                                    <p class="card-cont-header">In Depth: How It Works</p>
+                                    <p class="card-cont-text">Although the filter constructed is static in nature, the use of the viewer’s eyes allows the filter to become dynamic as the eyes will adjust accordingly to its focus. The geometric shapes are darker in colour compared to the underlying tint to allow the eyes to perceive a darker background image when it is out of the current focus. When the viewer’s focus changes to the background, the darker geometric shapes blend into the lighter shaded tint which allows a more consistent tint of the original image, yet a lighter tint than what would have been if a static filter was used. This blending is also due to the geometric nature of the shapes as the pattern is uniform whereas irregular patterns would be extremely noticeable (these have a different application).</p>
+                                    <p class="card-cont-header">Designing an appropriate RGP Filter</p>
+                                    <p class="card-cont-text">Constructing a RGP is pretty simple, and usually requires a trial and error process in discovering what alpha (opacity) values are most suitable for what images it will be layering on top of. Typically I use circles or squares as the geometric shape with no more than 4-5px in max width. Anything more would be too noticeable even out of focus. Spacing each geometric shape is up to you, personally I like having my shapes form into an equilateral triangle or in a lattice structure. Uniformity among the shapes is important for blending when out of focus. The distance between each shape should at least be ~1.5 diameters away from each other. The greater the distance, the brighter the background appears when out of focus vice versa. Behind all of these shapes, you can add a low alpha (opacity) solid fill layer. Formats in which these filters will be render as are .PNG or .SVG (since alpha values are required).</p>
+                                </div>
+
+                                <!-- Img -->
+                                <div class="art-wrapper">
+                                    <div class="centre-content">
+                                        <div class="art-tag"><p><span class="art-tag-coloured">Creating The Filter</span></p></div>
+                                        <img class="artwork lazy" src="assets/img/art/loading.gif" data-src="assets/img/blog/articles/2020.04.01/fw-sf.jpg">
+                                    </div>
+                                </div>
+
+                                <div class="art-text-cont">
+                                    <p class="card-cont-header">Common Usage Today</p>
+                                    <p class="card-cont-text">Throughout my web development career, I have noticed these filters being using commonly on websites developed for graphic designers, photographers, editors, etc. of those who work in the digital art industry. These filters are also more commonly found on top of dynamic backgrounds (carousels, fades, gifs, or videos) than of static images. The most common scenario that I do not see these appear in are in anything printed physically (custom filters should be designed for these).</p>
+                                    <p class="card-cont-header">Conclusion</p>
+                                    <p class="card-cont-text">RGP filters are NOT a replacement for every scenario, but can be used for variety commonly found. There are more advanced RGP filters in which require in-depth coding knowledge in which can allow it to be used in almost every situation, however these are more complex to create and are out of the scope for most users.</p>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Module / Footer -->
+    <div class="module-wrapper">
+        <!-- M Style -->
+        <div class="module-style">
+            <!-- M Content -->
+            <div class="mod-cont-wrapper">
+                <div class="footer-wrapper">
+                    <img class="footer-img" src="assets/img/blog/tco-logo.png">
+                    <p class="footer-text"><span class="yearCopy"></span> &copy; The Californian Opinion<br><span class="footer-dash">Los Angeles, CA, USA</span><br>Pushing Boundaries of the Mind</p>
+                <!-- Social Media -->
+                    <div class="soc-med-wrapper">
+                        <a href="https://www.facebook.com/clsnguyen.ca/" target="_blank" rel="noreferrer">
+                            <img class="soc-med-icon" alt="Facebook Link" src="assets/img/socmed/facebookv2.svg">
+                        </a>
+                        <a href="https://www.instagram.com/clsnguyen.ca/" target="_blank" rel="noreferrer">
+                            <img class="soc-med-icon" alt="Instagram Link" src="assets/img/socmed/instagramv2.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- End of Body -->

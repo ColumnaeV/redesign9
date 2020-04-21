@@ -1,0 +1,37 @@
+<!-- Module -->
+    <div class="module-wrapper">
+        <!-- M Style -->
+        <div class="module-style">
+            <!-- M Content -->
+            <div class="mod-cont-wrapper">
+                <!-- Card Split Mod -->
+                <div class="card-split-ov-wrapper">
+                    <div class="card-split-wrapper">
+                        <!-- Card Cover -->
+                        <div class="card-split-container card-cover">
+
+                        </div>
+
+                        <!-- Card Content -->
+                        <div class="card-split-container card-cont">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<!-- Module -->
+    <div class="module-wrapper height-req">
+        <!-- M Style -->
+        <div class="module-style">
+            <!-- M Content -->
+            <div class="mod-cont-wrapper">
+
+            </div>
+        </div>
+
+    </div>
