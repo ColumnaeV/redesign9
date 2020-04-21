@@ -107,7 +107,6 @@ $(document).ready(function (){
         else {
             console.log('mobile mode');
             $('div.nav-wrapper').removeClass('nav-desktop');
-            $('div.nav-wrapper').css({ "min-height": vh100 });
 
             // Card Tag //
             $('div.page-wrapper').children('div.page').children('div.module-wrapper:even').children('div.module-style').children('div.mod-cont-wrapper').children('div.card-split-ov-wrapper').children('div.card-split-wrapper').children('div.card-cover').children('div.card-cov-tint').children('div.tag-anchor').addClass('card-tag');
