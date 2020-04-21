@@ -506,7 +506,7 @@ span.loading-tag {
         top: 0;
         left: 100vw;
         width: 100%;
-        height: inherit;
+        height: 1000vw;
         z-index: 100;
         display: flex;
         flex-direction: column;
@@ -579,7 +579,7 @@ span.loading-tag {
         top: 0;
         left: 100vw;
         width: 100%;
-        height: inherit;
+        height: 1000vw;
         z-index: 100;
         display: flex;
         flex-direction: column;
